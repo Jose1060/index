@@ -17,7 +17,7 @@ import { fromEvent, interval, throttleTime } from "rxjs";
 
 	//Subscription
 	observableButton$.pipe(throttleTime(5000)).subscribe(() => {
-		console.log("en este caso cambiar el color");
+		console.log("En este caso cambiar el color");
 		block.style.backgroundColor = "darkblue";
 		title.innerHTML = "Es de noche";
 		title.style.color = "white";
