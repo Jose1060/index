@@ -1,0 +1,10 @@
+{
+"compiler Options":{
+  "outDir":"./dist/",
+  "noimplicitAny":true,
+  "module":"e56",
+  "target":"es5",
+  "allows":true,
+  "moduleResolution":"node"
+}
+}
